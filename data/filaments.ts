@@ -14,11 +14,11 @@ export interface FilamentInfo {
 }
 
 export const TIERS: { tier: Tier; label: string; color: string }[] = [
-  { tier: 'S', label: 'S Tier', color: 'text-emerald-400' },
-  { tier: 'A', label: 'A Tier', color: 'text-sky-400' },
-  { tier: 'B', label: 'B Tier', color: 'text-amber-400' },
-  { tier: 'C', label: 'C Tier', color: 'text-red-400' },
-  { tier: 'F', label: 'F Tier', color: 'text-slate-500' },
+  { tier: 'S', label: 'S Tier', color: 'text-[#ff7f7f]' },
+  { tier: 'A', label: 'A Tier', color: 'text-[#ffbf7f]' },
+  { tier: 'B', label: 'B Tier', color: 'text-[#ffdf7f]' },
+  { tier: 'C', label: 'C Tier', color: 'text-[#ffff7f]' },
+  { tier: 'F', label: 'F Tier', color: 'text-[#bf7fbf]' },
 ];
 
 export const FILAMENTS: FilamentInfo[] = [
