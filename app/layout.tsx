@@ -1,6 +1,7 @@
 // app/layout.tsx
 import "./globals.css";
 import { ReactNode } from "react";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
     title: "3D Printing Filament Tier List",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <body className="bg-background text-foreground">
                 {children}
             </body>
+            <Analytics />
         </html>
     );
 }
